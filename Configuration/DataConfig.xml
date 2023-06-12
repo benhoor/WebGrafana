@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Environment>
+
+    <!--Timeout-->
+    <Timeout>5</Timeout>
+
+    <!--Authorization-->
+    <userName>admin</userName>
+    <password>admin</password>
+    <!--Web-->
+<!--    <PlatformName>web</PlatformName>-->
+    <BrowserName>chrome</BrowserName>
+    <url>http://localhost:3000</url>
+    <ImageRepo>//Users//efrat//IdeaProjects//FinalProject-Grafana//ImageRepository//</ImageRepo>
+
+    <!--Data driven testing-->
+    <DDTFile>./DDTFiles/user.csv</DDTFile>
+
+    <!--Rest API-->
+    <urlAPI>http://localhost:3000</urlAPI>
+
+    <!--Database-->
+    <DBURL>dburl</DBURL>
+    <DBUserName>admin</DBUserName>
+    <DBPassword>admin</DBPassword>
+
+</Environment>
